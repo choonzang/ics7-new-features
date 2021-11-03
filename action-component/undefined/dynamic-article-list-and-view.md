@@ -16,7 +16,7 @@
 
 [https://isd.i-on.net/new/ac/sample04/exam\_01.html](https://isd.i-on.net/new/ac/sample04/exam\_01.html)
 
-## Component
+## Component 구성&#x20;
 
 ### 기본정보&#x20;
 
@@ -46,9 +46,13 @@ Option , width : 100%
     데이터를 가져올때, 정렬 조건을 설정할 수 있습니다. 현재는 설정값 없이 공란으로 두었습니다.
 5.  template (숨김상자)&#x20;
 
-    다이나믹에서 결과를 가져왔을 떄, 보여질 다이나믹 서비스의 결과 템플릿을 아래의 소스와 같이 숨김파일로 등록되었습니다.  마케터가 템플릿을 수정할수 있다면, "숨김상자"를 하지 않고, "긴 입력상자"를 선택하여 팝업창에서 소스 코드를 수정하도록 하면 되지만, 마케터가 수정이 불가능하다면, 파트너사가 필드를 숨김상자로 만들어 해당 템플릿 소스를 등록할 수 있습니다.
+    다이나믹에서 결과를 가져왔을 떄, 보여질 다이나믹 서비스의 결과 템플릿을 아래의 소스와 같이 숨김파일로 등록되었습니다.  마케터가 템플릿을 수정할수 있다면, "숨김상자"를 하지 않고, "긴 입력상자"를 선택하여 팝업창에서 소스 코드를 수정하도록 하면 되지만, 마케터가 수정이 불가능하다면, 파트너사가 필드를 숨김상자로 만들어 해당 템플릿 소스를 등록할 수 있습니다. 아래의 케이스 1과 케이스2를 확인 후 필요한 Template Code를 참고하세요.
 
-#### 1. List 만 구현하고, Story페이지는 ICS에서 배포된 페이지로 링크되는 케이스에 Dynamic Service Template
+#### 케이스 1.  List 만 구현하고, Story페이지는 ICS에서 배포된 페이지로 링크되는 케이스에  Template Code
+
+{% hint style="info" %}
+다이나믹 서비스에서 상세페이지의 링크 연결을 도와주는 goStoryPage(catid,artid); 함수를 활용하고 있습니다.
+{% endhint %}
 
 ```html
 <div class="col-12 col-lg-12 blog-sidebar">
@@ -96,7 +100,13 @@ Option , width : 100%
   </textarea>
 ```
 
-#### 2. List와 View(Story) 페이지를  모두 Dynamic Service Template으로 구성
+
+
+#### 케이스 2.  List와 View(Story) 페이지를  하나의 Template Code로 구현&#x20;
+
+{% hint style="info" %}
+상세 페이지 클릭 시, setArticle(value)에 값을 실어보내면  isStoryMode()의 값에 따라 리스트와 상세페이지를 구분하여 정보를 vue 안에서 출력하도록 구성하고 있습니다.
+{% endhint %}
 
 ```html
 <div class="col-12 blog-details-text last-paragraph-no-margin margin-6-rem-bottom" v-if="isStoryMode()">
@@ -215,7 +225,7 @@ Option , width : 100%
 
 #### Add External javascript (CDN Links)
 
-
+(none)
 
 
 
