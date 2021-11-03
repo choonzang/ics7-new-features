@@ -15,7 +15,7 @@ List, Story template에서 사용할수 있으며, 아래 Attribute의 속성을
 | Attribute | Value         | Description                                                                                              |
 | --------- | ------------- | -------------------------------------------------------------------------------------------------------- |
 | acmptId   | value         | **Action Component ID 를 입력함**                                                                            |
-| accId     | value         | **Action Component에서 입력된 데이터를 저장할 데이터의 ID를 지정합니다. 임의 지정이 가능하고, 타 아이디와 중첩되지 않도록 유의해야ㅁ.**                  |
+| accId     | value         | **Action Component에서 입력된 데이터를 저장할 데이터의 ID를 지정합니다. 임의 지정이 가능하고, 타 아이디와 중첩되지 않도록 유의해야함.**                  |
 | realtime  | true or false | **true 시, Action Component 내에서 변경이 있을 경우, Dynamic으로 부터 데이터를 직접 Load 하여, Deploy 과정 없이 바로 서비스에 반영됨**       |
 | public    | true or false | **true 시, 사이트에서도 단축키(Ctrl+F1)를 통해 Action Component로 편집기능을 활성화 함 (단, ICS Admin 에 로그인이 안되있을 경우, 사용이 불가함)** |
 

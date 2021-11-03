@@ -51,4 +51,4 @@
     * [Basic Type](action-component/action-component-2/undefined/basic-type.md)
     * [Advanced Type](action-component/action-component-2/undefined/advanced-type.md)
   * [Template에 적용하기](action-component/action-component-2/template.md)
-  * [웹사이트에서 Action Componet 사용](action-component/action-component-2/action-componet.md)
+  * [사이트에서 Action Componet 사용](action-component/action-component-2/action-componet.md)

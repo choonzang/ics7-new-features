@@ -1,6 +1,18 @@
----
-description: 용
----
+# 사이트에서 Action Componet 사용
 
-# 웹사이트에서 Action Componet 사용
+Action Component는  ICS 에 로그인한 후 Preview를 통해서 관리할 수 있습니다. 만약, \[\[--Acmpt--]] 태그에서 public Attribute가  true 인 경우에는 배포된 웹사이트에서도 Action Component의 편집창을 호출할 수 있습니다.
+
+이때, 일반 사용자(End User)에게는 편집 링크를 노출되지 않아야 하기 때문에 기본적으로는 감춰진 상태에서 배포됩니다. 이를 활성화 하기 위해서는 Ctrl + F1 키를 누르게 되면, 편집 창을 열기 위한 아이콘이 활성화 됩니다.&#x20;
+
+![](<../../.gitbook/assets/image (1).png>)
+
+현재 브라우저가 ICS에 로그인되어있고, Action Component제어할 권한을 가진 상태라면, 팝업창을 통해서 요소를 제어할수 있습니다.
+
+![](<../../.gitbook/assets/스크린샷 2021-11-03 오전 11.24.43.png>)
+
+
+
+그러나, 권한이 없을 경우 또는 ICS로그인 상태가 되지 않은 경우에는 접근 오류를 발생하여, 편집할 수 없게 됩니.&#x20;
+
+![](<../../.gitbook/assets/스크린샷 2021-11-03 오전 11.24.59.png>)
 
