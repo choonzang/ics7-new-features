@@ -6,6 +6,10 @@
 
 Text Slider 입니다. 슬라이더 방식으로 마우스를 이용하여 좌우 이동이 가능하고, 배경이미지, 속성, 타이틀, 내용을 출력해주는 구성입니다.
 
+이 슬라이더의 관련된 옵션 및 사양은 아래의 링크를 참고 해주세요&#x20;
+
+슬라이더 관련 참고URL : [https://lithohtml.themezaa.com/documentation/#slider](https://lithohtml.themezaa.com/documentation/#slider)
+
 
 
 ## 참고 URL
