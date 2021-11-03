@@ -1,6 +1,8 @@
-# ArtJSON Tag 활용
+# 직접 JSON 생성 및 활용
 
-\[\[--ArtJSON--]] 태그는 아티클의 모든 데이터를 JSON형식으로 출력해주는 액션태그 입니다.  javascript를 통해서 템플릿을 만들어 낼수 있습니다.
+## \[\[--ArtJSON--]] Action Tag
+
+Graal Script를 사용하기위해 ICS내의 콘텐츠를  JSON으로 생성하는 과정이 필요합니다.  이때 간단하게  JSON data를 생성해주는 \[\[--ArtJSON--]] 태그를 통해 사이트 카테고리내에 아티클 정보를 JSON형식으로 출력해주는 액션태그 입니다.  javascript를 통해서 템플릿을 만들어 낼수 있습니다.
 
 Story Template 내에서는 단독으로 사용이 가능한 \[\[--Art\~ --]]태그 이며, \[\[--ActionStart--]] \~ \[\[--ActionEnd--]] 사이에서도 사용할 수 있습니다.&#x20;
 

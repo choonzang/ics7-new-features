@@ -8,7 +8,7 @@
   * [$H.db()](graal-script/graal-script/usdh.db.md)
   * [주의사항](graal-script/graal-script/undefined.md)
 * [주요예제](graal-script/undefined/README.md)
-  * [ArtJSON Tag 활용](graal-script/undefined/artjson-tag.md)
+  * [직접 JSON 생성 및 활용](graal-script/undefined/json.md)
   * [연산처리 활용](graal-script/undefined/undefined/README.md)
     * [할인율 적용](graal-script/undefined/undefined/undefined.md)
     * [날짜 연산](graal-script/undefined/undefined/undefined-1.md)
