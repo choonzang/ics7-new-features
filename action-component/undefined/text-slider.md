@@ -1,6 +1,6 @@
 # Text Slider
 
-### Screen
+## 개요&#x20;
 
 ![](<../../.gitbook/assets/스크린샷 2021-11-03 오전 11.45.38.png>)
 
@@ -8,11 +8,21 @@ Text Slider 입니다. 슬라이더 방식으로 마우스를 이용하여 좌�
 
 
 
+## 참고 URL
+
+[https://isd.i-on.net/new/ac/sample01/exam\_01.html](https://isd.i-on.net/new/ac/sample01/exam\_01.html)
+
+
+
 ## Component 구성
 
-### Tr
+### 기본정보&#x20;
 
-Advanced&#x20;
+Advanced Action Component
+
+popup width : 600, popup height : 500&#x20;
+
+Option , width : 100%
 
 
 
@@ -291,3 +301,6 @@ const swiper = new Swiper('.swiper', {
 "centeredSlides": true, "spaceBetween": 60, "loop": true, "navigation": { "nextEl": ".swiper-button-next-nav-2", "prevEl": ".swiper-button-previous-nav-2" }, "autoplay": { "delay": "4500", "disableOnInteraction": false }, "keyboard": { "enabled": true, "onlyInViewport": true }, "breakpoints": { "991": { "slidesPerView": 2 }, "767": { "slidesPerView": 1 } }, "effect": "slide"
 });
 ```
+
+
+
