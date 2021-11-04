@@ -62,3 +62,7 @@ print('원가: <span style="text-decoration:line-through;">'+ price +'</span> , 
 원가: ~~5000~~ , 할인가 :4000&#x20;
 
 원가: ~~1000~~ , 할인가 :1000
+
+## 샘플 URL
+
+[https://isd.i-on.net/new/gst/cal/exam\_03.html](https://isd.i-on.net/new/gst/cal/exam\_03.html)
