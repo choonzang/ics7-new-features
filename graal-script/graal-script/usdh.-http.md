@@ -1,7 +1,7 @@
 # $H. http()
 
 {% hint style="info" %}
-**Good to know:** javascript에서는 외부 API를 호출하여 사용하기 위한 ajax가 있으나, Graal Script에서는 제한하고 있습니다 .
+**Good to know:** javascript에서는 외부 API를 호출하여 사용하기 위한 ajax가 있으나, Graal Script에서는 $H 객체를 제공하고 있습니다.
 {% endhint %}
 
 Graal Script 내에서 외부 API를 호출하기 위해 아이온커뮤니케이션즈는 $H.http()를 제공하고 있으며, 호출된 데이터를 Parsing하여 템플릿에 활용할 수 있습니다.&#x20;

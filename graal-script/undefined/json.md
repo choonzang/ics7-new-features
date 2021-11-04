@@ -2,7 +2,7 @@
 
 ## \[\[--ArtJSON--]] Action Tag
 
-Graal Script를 사용하기위해 ICS내의 콘텐츠를  JSON으로 생성하는 과정이 필요합니다.  이때 간단하게  JSON data를 생성해주는 \[\[--ArtJSON--]] 태그를 통해 사이트 카테고리내에 아티클 정보를 JSON형식으로 출력해주는 액션태그 입니다.  javascript를 통해서 템플릿을 만들어 낼수 있습니다.
+Graal Script를 사용하기위해 ICS내의 콘텐츠를  JSON으로 생성하는 과정이 필요합니다.  이때 간단하게  JSON data를 생성해주는 \[\[--ArtJSON--]] 태그를 통해 사이트 카테고리내에 아티클 정보를 JSON형식으로 출력해주는 액션태그 입니다.&#x20;
 
 Story Template 내에서는 단독으로 사용이 가능한 \[\[--Art\~ --]]태그 이며, \[\[--ActionStart--]] \~ \[\[--ActionEnd--]] 사이에서도 사용할 수 있습니다.&#x20;
 
@@ -12,9 +12,9 @@ Story Template 내에서는 단독으로 사용이 가능한 \[\[--Art\~ --]]태
 | comma     | true or false | **JSON 출력 시, 데이터 row에 따라 형식에 맞게 “,”를 붙여줌**                                                                                 |
 | except    | key1;key2;... | <p><strong>return 된 데이터 중에서 JSON으로 출력할 key를 제외함. </strong></p><p><strong>제외할 key를 여러개 설정하기 위해서는 ; 으로 추가하여 붙여줌</strong></p> |
 
-Graal Script는 이 JSON파일을 참조하여, 템플릿으로 사용될 수 있으며, 참조에 필요한 데이터 유형을 만드는데 필요한 다양한 속성을 활용하여, 적합한 JSON을 만들어 사용할수 있습니다.&#x20;
+Attribute에 따라 JSON 유형을 만들어 내면, Graal Script를 통해서 템플릿을 개발하거나, 외부에 제공할 JSON 파일을 생성하여 서버에 배포할 수 있습니다.
 
-기본적으로 Object 타입으로 Return되므로, 이를 바로 변수로 받아서 반복문으로 활용할 수 있습니다.&#x20;
+
 
 ## 사용 예
 
