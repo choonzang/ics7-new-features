@@ -31,3 +31,7 @@ print('아티클 게시일 1달 더하기: '+ cal_date + '<br/>');
 > 아티클 게시일 출력: Sun Oct 17 2021 00:00:00 GMT+0900 (KST)&#x20;
 >
 > 아티클 게시일 1달 더하기: Wed Nov 17 2021 00:00:00 GMT+0900 (KST)
+
+## 샘플 URL
+
+[https://isd.i-on.net/new/gst/cal/exam\_03.html](https://isd.i-on.net/new/gst/cal/exam\_01.html)

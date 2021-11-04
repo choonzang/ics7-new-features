@@ -65,4 +65,4 @@ print('원가: <span style="text-decoration:line-through;">'+ price +'</span> , 
 
 ## 샘플 URL
 
-[https://isd.i-on.net/new/gst/cal/exam\_03.html](https://isd.i-on.net/new/gst/cal/exam\_03.html)
+[https://isd.i-on.net/new/gst/cal/exam\_01.html](https://isd.i-on.net/new/gst/cal/exam\_01.html)
