@@ -50,5 +50,6 @@
   * [Accordians](action-component/undefined/accordians.md)
   * [Call To Action](action-component/undefined/call-to-action.md)
   * [SNS API Connection #1](action-component/undefined/sns-api-connection-1.md)
+  * [SNS API Component #2](action-component/undefined/sns-api-component-2.md)
   * [Subscribe](action-component/undefined/subscribe.md)
   * [Menu Navigation](action-component/undefined/menu-navigation.md)

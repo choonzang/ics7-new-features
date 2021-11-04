@@ -83,12 +83,14 @@ $.each(_data.options, function(index, item) {
 ```javascript
 var _slides = [];
 var _options = [];
+
   $('#slidesjs-item-list > div.slidesjs-item').each(function (index, item) {
     _options.push({
       accesstoken : $('#item_at').val() ,
       loop_cnt : $('#item_lc').val()
       });
   });
+  
   jsondata = JSON.stringify(_options[0].accesstoken);
 
   var token = _options[0].accesstoken;
@@ -98,6 +100,7 @@ var _options = [];
     type: 'GET',
     async:false,
     success: function (response) {
+    
       $.each(response.data, function(index,item){
         _slides.push({
           'id' : item.id,
@@ -106,9 +109,7 @@ var _options = [];
           'link' : item.permalink
         });
       });
-      //var slidesdata = JSON.stringify(_slides);
-
-
+      
     },
     error: function (data) {
       console.log('Please check Instagram Access token');
