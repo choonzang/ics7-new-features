@@ -10,6 +10,10 @@
 
 DB 접근 시, 의도하지 않게 접속이 되지 않을 경우, try, catch를 이용하여 이에 대한 예외 처리를 준비해야 합니다.
 
+{% hint style="warning" %}
+DB 에 호출하는 query는 보안을 위해 조회성 요청으 제한된 쿼리로만 호출이 가능합니다.&#x20;
+{% endhint %}
+
 ## 사용 예&#x20;
 
 ### Template Code
