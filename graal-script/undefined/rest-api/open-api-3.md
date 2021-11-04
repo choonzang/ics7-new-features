@@ -66,6 +66,6 @@ const formatDate = date.getFullYear() +"-"+ (date.getMonth() + 1)  + "-" + date.
 
 
 
-### 참고 URL
+### 예 URL
 
 [https://isd.i-on.net/new/gst/restapi\_\_/exam\_01.html](https://isd.i-on.net/new/gst/restapi\_\_/exam\_01.html)

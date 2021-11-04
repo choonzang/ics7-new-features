@@ -60,3 +60,7 @@ try {
 1185975 I-ON Communications resumes to stretch its global business after pause due to Coronavirus Pandemic Wed Oct 27 2021 11:33:20 GMT+0900 (KST)
 
 1185974 I-ON Communications to participate at GMV 2020 Fri Oct 22 2021 11:51:55 GMT+0900 (KST)
+
+### &#x20;예제 URL
+
+[https://isd.i-on.net/new/gst/db/exam\_01.html](https://isd.i-on.net/new/gst/db/exam\_01.html)

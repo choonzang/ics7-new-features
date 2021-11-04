@@ -63,6 +63,6 @@ list.response.body.items.item.forEach(function(node){
 
 
 
-### 참고 URL
+### 예제 URL
 
 [https://isd.i-on.net/new/gst/restapi/exam\_04.html](https://isd.i-on.net/new/gst/restapi/exam\_04.html)
