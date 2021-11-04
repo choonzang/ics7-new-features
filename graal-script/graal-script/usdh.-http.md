@@ -8,6 +8,10 @@ Graal Script 내에서 외부 API를 호출하기 위해 아이온커뮤니케�
 
 headers, data를 넘길 시, API 제공 서비스 규격에 맞게 전달해주시면 됩니다.  다만, 외부 API를 호출 시, 의도하지 않게  API가 응답하지 않을 경우에 대한 처리를 위해 try catch를 이용하여 대비하는 것이 좋습니다.&#x20;
 
+{% hint style="warning" %}
+$H.http() 에서는 ICS 서버가 외부 서비스 API에 요청하는 방식입니다. 사전에 ICS서버에서 외부 서비스 요청할 수 있도록 방화벽의 설정이 오픈되어있어야 합니다.  &#x20;
+{% endhint %}
+
 ## 사용 예&#x20;
 
 ### Template Code
