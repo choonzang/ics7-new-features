@@ -1,4 +1,4 @@
-# 사이트에서 Action Componet 사용
+# 웹사이트에서 Action Component 사용
 
 Action Component는  ICS 에 로그인한 후 Preview를 통해서 관리할 수 있습니다. 만약, \[\[--Acmpt--]] 태그에서 public Attribute가  true 인 경우에는 배포된 웹사이트에서도 Action Component의 편집창을 호출할 수 있습니다.
 

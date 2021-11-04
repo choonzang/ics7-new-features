@@ -34,4 +34,4 @@ print('아티클 게시일 1달 더하기: '+ cal_date + '<br/>');
 
 ## 샘플 URL
 
-[https://isd.i-on.net/new/gst/cal/exam\_03.html](https://isd.i-on.net/new/gst/cal/exam\_01.html)
+[https://isd.i-on.net/new/gst/cal/exam\_03.html](https://isd.i-on.net/new/gst/cal/exam\_03.html)
