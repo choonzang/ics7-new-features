@@ -49,6 +49,6 @@
   * [Tab](action-component/undefined/tab.md)
   * [Accordians](action-component/undefined/accordians.md)
   * [Call To Action](action-component/undefined/call-to-action.md)
-  * [SNS API Connection](action-component/undefined/sns-api-connection.md)
+  * [SNS API Connection #1](action-component/undefined/sns-api-connection-1.md)
   * [Subscribe](action-component/undefined/subscribe.md)
   * [Menu Navigation](action-component/undefined/menu-navigation.md)
