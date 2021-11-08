@@ -8,6 +8,10 @@ Menu Navigation 형태의 Action Component입니다. 마케터는 자유롭게 �
 
 Action Component내에서 메뉴를 생성 하고, 정렬을 하게 되면 JSON 형식을 Component에 보내게 되고, 이를 사용자 화면에 보여지도록 합니다.&#x20;
 
+이 Component 에서는 "domenu"라는 외부 라이브러리를 사용하고 있습니다. 관련된 정보는 아래 URL을 참고해주세요.  참고 URL : [https://mechanicious.github.io/domenu/](https://mechanicious.github.io/domenu/)
+
+이 라이브러리를 기반으로 select2.js 추가 플러그인을 사용하고 있습니다. 관련된 정보 및 라이선스는 아래 URL을 참고해주세요. 참고 URL : [https://github.com/select2/select2/blob/develop/README.md](https://github.com/select2/select2/blob/develop/README.md)
+
 ## 샘플 URL
 
 [https://isd.i-on.net/new/ac/sample05/exam\_01.html](https://isd.i-on.net/new/ac/sample05/exam\_01.html)
@@ -509,16 +513,14 @@ Option , width : 100%
   <div id="domenu-1-output" class="output-preview-container">
     <h4>JSON Output Preview (User menu)</h4>
     <textarea style="width: 100%;min-height: 150px;color: #FFF;background-color: #5e5e5e;font-size: 12px;" name="jsonOutput" class="jsonOutput"></textarea>
-    <!--
-    <input type="checkbox" name="keepchages" class="keepChanges" checked> Keep changes after page reload (localStorage)
-    <br><br>
-  -->
-    <!--input type="button" name="clearLocalStorage" class="clearLocalStorage" value="Clear localStorage"-->
-    <br/>
+    <br/>https://github.com/select2/select2/blob/develop/README.md
   </div>
 </section>
 
+<!-- select2.js Plugin 참고  -->
 <script src="https://isd.i-on.net/new/js/select2.js"></script>
+
+<!-- domenu Library 참고 -->
 <script src="https://isd.i-on.net/new/js/domenu_js.js"></script>
 ```
 
