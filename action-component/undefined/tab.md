@@ -343,12 +343,5 @@ return {
 
 #### Javscript
 
-```javascript
-function isState(index) {
-    if(index == 0) return true;
-    else false;
-}
-```
-
-### ㅇㄴ
+(none)
 

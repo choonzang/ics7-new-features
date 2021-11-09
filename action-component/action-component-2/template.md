@@ -45,7 +45,7 @@ Action Component 의 동작을 위해 필요한 Action Component javascript Util
 
 ## Template 내에 사용 예시&#x20;
 
-```
+```html
 <html>
     <head>
     </head>
