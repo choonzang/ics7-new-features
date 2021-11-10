@@ -38,6 +38,21 @@ ICS에서 관리 및 구축이 용이한 폴더 관리 방식은 메뉴별로 �
 >
 > 한 뎁스 내에 생성될 폴더는 최대 1156개를 초과할 경우, 퀵빌더를 통한 생성이 불가합니다.&#x20;
 
+### Directory 내에 .ics\_cat\_info 구성
+
+최상위 루트에서 생성 시, 사이트 카테고리 또는 컨텐츠 카테고리를 생성할 때 .ics\__cat_\_info 파일안에 아래와 같이 작성해두면, 생성할 때 카테고리 이름이나, 설명, 액션필드설정, 사이트카테고리 메타필드 정보를 설정할 수 있습니다.
+
+카테고리를 생성할 디렉토리마다 해당 파일을 만들어 두면 됩니다.&#x20;
+
+```
+{
+	catNm : '(카테고리 이름)',
+	catExp : '(카테고리 설명)',
+	afields : ['ActionField ID 1', 'ActionField ID 2'],
+	metas : [{metaId:'(MetaField ID)', metaNm:'(Mefield Name)', typeCd:'(Metafield Type)', value:'(Metafield Value)'}]
+}
+```
+
 
 
 ### Link 설정&#x20;
