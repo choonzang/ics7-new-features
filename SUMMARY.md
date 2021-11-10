@@ -3,7 +3,7 @@
 ## Graal Script
 
 * [Graal Script 개요](README.md)
-  * [\[\[--Script--\]\] Action Tag](graal-script/graal-script/graal-script.md)
+  * [Script Tag](graal-script/graal-script/graal-script.md)
   * [$H. http()](graal-script/graal-script/usdh.-http.md)
   * [$H.db()](graal-script/graal-script/usdh.db.md)
   * [주의사항](graal-script/graal-script/undefined.md)

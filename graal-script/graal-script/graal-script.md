@@ -1,4 +1,6 @@
-# \[\[--Script--]] Action Tag
+# Script Tag
+
+## \[\[--Script--]] Action Tag
 
 Script Tag는 기존의 액션태그 뿐만 아니라, Javascript으로도 템플릿 개발이 가능하도록 확장하기 위해 지원하는 스크립트입니다. 향후 다양한 요구를 반영하여 javascript 내에서 활용할 수 있는 다양한 객체를 제공할 예정입니다.&#x20;
 
