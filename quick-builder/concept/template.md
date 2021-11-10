@@ -94,6 +94,18 @@ Template Source
 
 custom tag name (괄호는 포함되지 않습니다) 을 동일하게 입력하게 되어야 템플릿 내에 해당 소스를 공통 소스 영역으로 인지하고 Custom Tag으로 추출됩니다.&#x20;
 
+만약 , Quick Builder를 생성할 떄마다 커스텀택의 네이밍이 변경이 필요하다면 아래의 옵션을 적용해 볼 수 있습니다. custom tag name 에 "@"를 붙여서 네이밍을 다르게 하여 추출하는 방식입니다. 이 결과는 \[\[--site\_(등록할 사이트카테고리 아이디)\_header--]]로 생성됩니다. 최상위 루트에서 생성할 때, 사이트마다 다른 아이디 체계를 가지고 있으면서, 커스텀태그도 각자 생성해야 할 경우에 "@"를 사용할 수 있습니다.
+
+```
+<!--CUSTOM_TAG_START[site_@_header]-->
+
+Template Source
+
+<!--CUSTOM_TAG_END[site_@_header]-->
+```
+
+&#x20;
+
 
 
 ### Zip file 압축&#x20;
