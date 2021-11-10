@@ -2,9 +2,23 @@
 
 생성된 Action Component를 사이트의 템플릿에 적용하기 위해서는 아래의 태그를 사용해야 합니다.
 
-\[\[--Acmpt--]] 와 \[\[--AcmptJSLink--]]는 반드시 함께 사용되어야 하며, 위 기능을 사용시 관련된 js, css는 "\_\_icsFiles/acmpt"경로로 (호스트 정보 변경 시) 자동으로 포함되어 디플로이 됩니다.&#x20;
+&#x20;\[\[--AcmptJSLink--]] 와 \[\[--Acmpt--]] 는 반드시 함께 사용되어야 하며, 위 기능을 사용시 관련된 js, css는 "\_\_icsFiles/acmpt"경로로 (호스트 정보 변경 시) 자동으로 포함되어 디플로이 됩니다.&#x20;
 
 
+
+## \[\[--AcmptJSLink--]] Action Tag
+
+Action Component 의 동작을 위해 필요한 Action Component javascript Utility를 불러오는 태그입니다. 다만, 해당 템플릿이 jQuery 를 사용하는 경우, 충돌이 발생할 수 있기 때문에 아래 Attribute의 속성을 통해서 사용여부를 선택하여 중복 선언이 되지 않도록 해야 합니다.&#x20;
+
+이 태그는 Action Component의 동작을 위해 필요한 Action Tag이므로, jQuery가 선언되는 HTML문서 하단 영역에 선언하는것이 좋습니다.
+
+| Attribute     | Value         | Description                                                              |
+| ------------- | ------------- | ------------------------------------------------------------------------ |
+| excludeJQuery | true or false | **Action Component Javascript Utility에서 jQuery에 대한 선언을 제외할 것인지를 선택합니다.** |
+
+### 사용예
+
+\[\[--AcmptJSLink,excludeJQuery:true--]]
 
 ## \[\[--Acmpt--]] Action Tag
 
@@ -23,31 +37,12 @@ List, Story template에서 사용할수 있으며, 아래 Attribute의 속성을
 
 \[\[--ACMPT,acmptId:type\_01,accId:xxxxxx--]]
 
-
-
-## \[\[--AcmptJSLink--]] Action Tag
-
-Action Component 의 동작을 위해 필요한 Action Component javascript Utility를 불러오는 태그입니다. 다만, 해당 템플릿이 jQuery 를 사용하는 경우, 충돌이 발생할 수 있기 때문에 아래 Attribute의 속성을 통해서 사용여부를 선택하여 중복 선언이 되지 않도록 해야 합니다.&#x20;
-
-이 태그는 Action Component의 동작을 위해 필요한 Action Tag이므로, jQuery가 선언되는 HTML문서 하단 영역에 선언하는것이 좋습니다.
-
-| Attribute     | Value         | Description                                                              |
-| ------------- | ------------- | ------------------------------------------------------------------------ |
-| excludeJQuery | true or false | **Action Component Javascript Utility에서 jQuery에 대한 선언을 제외할 것인지를 선택합니다.** |
-
-### 사용예
-
-\[\[--AcmptJSLink,excludeJQuery:true--]]
-
-
-
-
-
 ## Template 내에 사용 예시&#x20;
 
 ```html
 <html>
     <head>
+    [[--AcmptJSLink,excludeJQuery:false--]]
     </head>
 <body>
     <section>
@@ -56,7 +51,6 @@ Action Component 의 동작을 위해 필요한 Action Component javascript Util
         [[--Acmpt,acmptID:type_01,accID:main_map,realtime:true,public:true--]]
         </div>
     </section>
-    [[--AcmptJSLink,excludeJQuery:false--]]
 </body>
 </html>
 ```
