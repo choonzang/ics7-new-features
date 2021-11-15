@@ -6,7 +6,7 @@
   * [Script Tag](graal-script/graal-script/graal-script.md)
   * [$H. http()](graal-script/graal-script/usdh.-http.md)
   * [$H.db()](graal-script/graal-script/usdh.db.md)
-  * [주의사항](graal-script/graal-script/undefined.md)
+  * [Content Hub Script (준비중)](graal-script/graal-script/undefined.md)
 * [주요예제](graal-script/undefined/README.md)
   * [직접 JSON 생성 및 활용](graal-script/undefined/json.md)
   * [연산처리 활용](graal-script/undefined/undefined/README.md)
