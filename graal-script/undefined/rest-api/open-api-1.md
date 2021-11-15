@@ -109,6 +109,6 @@ print('예보일자 : ' + node.tm + '');
 
 
 
-### 예제 URL
+## 샘플 URL
 
 [https://isd.i-on.net/new/gst/restapi\_/exam\_01.html](https://isd.i-on.net/new/gst/restapi\_/exam\_01.html)

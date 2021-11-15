@@ -61,6 +61,6 @@ try {
 
 1185974 I-ON Communications to participate at GMV 2020 Fri Oct 22 2021 11:51:55 GMT+0900 (KST)
 
-### &#x20;예제 URL
+## &#x20;샘플 URL
 
 [https://isd.i-on.net/new/gst/db/exam\_01.html](https://isd.i-on.net/new/gst/db/exam\_01.html)

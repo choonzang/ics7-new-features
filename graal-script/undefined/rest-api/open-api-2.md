@@ -57,6 +57,6 @@ list.items.forEach(function(node){
 
 
 
-### 예제 URL
+## 샘플 URL
 
 [https://isd.i-on.net/new/gst/restapi/exam\_03.html](https://isd.i-on.net/new/gst/restapi/exam\_03.html)
