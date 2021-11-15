@@ -1,6 +1,6 @@
-# Basic Action Component
+# Basic Type
 
-![](https://lh5.googleusercontent.com/833e8Ym8fQjEgwnjOhzJnrZZm1w0I-m6wvqDSei-JvbTAM1YSFzU8DeKpjD88TDcOjsKbi2UkrcPNUX2spT\_G5Z3j6e4ZY0YbiePyJO2jCy4VBDqRrsCXHQzx4Z5TL49-lNl79J0)
+![](<../../.gitbook/assets/스크린샷 2021-11-15 오후 1.53.06.png>)
 
 Basic Action Component는 사전에 미리 정의해둔 데이터 속성값을 입력하거나, 변경할 수 있습니다.
 

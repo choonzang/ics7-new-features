@@ -1,8 +1,8 @@
-# Advanced Action Component
+# Multiple Value Type
 
-![](https://lh3.googleusercontent.com/\_5PVskaJIqKxddsGViPLWhEaqV3mV3osiqAQeprHPC0VeLHNwItyExncG-6tQmq\_\_T0qisUp5m\_VNXgRoGEVSt-CS4COZHBInti8BoqP-9pFvlwvisXpODkaA3dC63WERB0Zmq0u)
+![](<../../.gitbook/assets/스크린샷 2021-11-15 오후 1.53.24.png>)
 
-Advanced Action Component는 데이터 속성 뿐 아니라, 데이터의 수도 증가할 수 있는 유형입니다.
+Multiple Value Action Component는 데이터 속성 뿐 아니라, 데이터의 수도 증가할 수 있는 유형입니다.
 
 마케터가 여러 건의 콘텐츠를 입력할 수 있는 것처럼 정해진 필드의 값을 입력하여, 여러 건의 데이터를 노출할 수 있는 구성에 적합니다.  마케터는  메인 비주얼의 슬롯을 다중으로 생성하여, 슬롯 안에 필요한 데이터 필드의 값을 입력함으로써 이 구성에 대해 관리가 가능해집니다.&#x20;
 
@@ -12,8 +12,6 @@ Advanced Action Component는 데이터 속성 뿐 아니라, 데이터의 수도
 
 ### 사용 가능한 케이스
 
-* Slideshow&#x20;
+* Text / Main Visual Slide&#x20;
 * Tab&#x20;
 * Accordions FAQ&#x20;
-* Menu Navigation
-* Soical API Integrated Service

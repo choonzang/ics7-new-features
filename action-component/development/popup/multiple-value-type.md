@@ -1,14 +1,12 @@
-# Basic Type
+# Multiple Value Type
 
 이 영역은 파트사가 제작할 수 있는 영역입니다.&#x20;
 
-운영매니저 > Action Component 메뉴에서 Basic Component탭을 선택합니다. 그리고 "등록" 버튼을 누르면 아래의 창을 볼 수 있습니다.
+운영매니저 > Action Component 메뉴에서 Multiple Value Component탭을 선택합니다. 그리고 "등록" 버튼을 누르면 아래의 창을 볼 수 있습니다.
 
 Basic Type 은 4개의 탭으로 구성되어있습니다.
 
 기본정보, 필드설정, Vue.js, JS 입니다. 가장 먼저 보이는 탭은 "기본정보" 입니다.
-
-
 
 ### 기본정보
 
@@ -194,4 +192,3 @@ vue.js  템플릿의 동작을 위해서 필요한 CSS, JS 등이 외부 링크�
 
 
 최종 작업이 완료되면, "저장" 버튼을 눌러서 컴포넌트 소스를 저장합니다.
-
