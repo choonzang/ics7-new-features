@@ -1,6 +1,6 @@
 # Multiple Value Type
 
-![](<../../.gitbook/assets/스크린샷 2021-11-15 오후 1.53.24.png>)
+![](<../../.gitbook/assets/스크린샷 2021-11-15 오후 2.27.00.png>)
 
 Multiple Value Action Component는 데이터 속성 뿐 아니라, 데이터의 수도 증가할 수 있는 유형입니다.
 
