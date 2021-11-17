@@ -20,6 +20,7 @@
     * [Open API로 기사정보 가져오기 - 응용](graal-script/undefined/rest-api/open-api-3.md)
   * [DB접근을 통한 활용](graal-script/undefined/db/README.md)
     * [외부DB에서 정보 가져오기](graal-script/undefined/db/db.md)
+  * [정렬 활용](graal-script/example/undefined.md)
 
 ## Quick Builder
 
