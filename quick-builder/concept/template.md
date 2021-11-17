@@ -8,7 +8,9 @@ Quick Builder를 통해 ICS에 템플릿을 일괄 등록하기 위해, 아래�
 
 Quick Builder로 사이트를 구축하기 위해 필요한 템플릿을 준비합니다. \*.html, \*.css, \*.js, resource files 로 구성되어있습니다.&#x20;
 
-html, php, jsp, asp,css,js  등 Template으로 등록하여 버전관리가 필요한 경우, 미리 구분이 필요합니다. 확장자를 기억해두세요.&#x20;
+html, php, jsp, asp,css,js 등 또 그 외의 확장자를 가진 Template으로 등록하여 버전관리가 필요한 경우, 추가로 지정할 수 있습니다.
+
+단, 템플릿만 등록한 Quick Builder에서는 템플릿으로 등록할 확장자를 지정할 수 없습니다.&#x20;
 
 
 

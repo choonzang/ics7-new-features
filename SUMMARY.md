@@ -28,7 +28,7 @@
 * [Quick Builder로 생성하기](quick-builder/quick-builder/README.md)
   * [최상위 루트 생성](quick-builder/quick-builder/undefined.md)
   * [하위 디렉토리 생성](quick-builder/quick-builder/undefined-1.md)
-  * [템플릿 생성 (준비중)](quick-builder/build/undefined.md)
+  * [템플릿 생성](quick-builder/build/undefined.md)
 
 ## Action Component
 
