@@ -16,8 +16,8 @@ Script Tag는 기존의 액션태그가 가지고 있는 한계를 확장하기 
 [[--ScriptStart--]]
 
 //javscipt code를 입력하며, 이 영역은 액션태그와 혼용할 수 있습니다 
-var a = '안녕하세요';
-var b = '반갑습니다';
+var a = 'Hello';
+var b = 'World!!';
 var c = a + b ;
 
 //최종 결과값 출력을 print()로 합니다
@@ -28,7 +28,7 @@ print(c);
 
 ### Result
 
-> 안녕하세요 반갑습니다&#x20;
+> Hello World!!
 
 ## 주의사항&#x20;
 
