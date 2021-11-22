@@ -13,10 +13,32 @@ Content Hub 는 ICS가 이 시스템과의 DB 간의 연동을 위해서  데이
 ### Code
 
 ```xml
-<c:script targetKey="xx1">
+<!-- 변수a 에 필요한 데이터를 정의합니다. -->
+<c:set targetKey="a">
+    <property name="key">Hello</property>
+    <property name="name">Graal</property>
+</c:set>
 
+<!-- 변수 b를 추가한 데이터를 content라는 변수에 정의합니다. -->
+<c:script sourceKey="a" targetKey="B">
+    var content = [];
+    var b = {"name":"Script","key":"World!!"};
+    
+    content.push(a);
+    content.push(b);
+
+    return content;
 </c:script>
+
+<!-- content 라는 변수로 정의된 값을 B로 정의하여 출력합니다. -->
+<c:out sourceKey="B"/>
 ```
 
+### Result
 
+| name   | key     |
+| ------ | ------- |
+| Graal  | Hello   |
+| Script | World!! |
 
+이와같이 정의된 값을 DB에 추가하여, 외부 시스템으로 전송하거나, 출력해 볼 수 있다.

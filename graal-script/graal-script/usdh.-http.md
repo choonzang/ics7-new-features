@@ -1,3 +1,7 @@
+---
+description: Script Tag , Content Hub 사용 가능
+---
+
 # $H. http()
 
 {% hint style="info" %}
