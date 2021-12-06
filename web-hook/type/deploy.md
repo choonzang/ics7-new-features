@@ -1,10 +1,10 @@
 # Deploy Web Hook
 
-&#x20;ICS 내에서 지정된 특정 카테고리 밑으로 배포가 발생되었을 때, 이벤트를 발생하는 Web Hook 입니다.&#x20;
+ICS 내에서 지정된 특정 카테고리 밑으로 배포가 발생되었을 때, 이벤트를 발생하는 Web Hook 입니다.
 
-![](<../../.gitbook/assets/스크린샷 2021-11-11 오후 3.34.24.png>)
+![](<../../.gitbook/assets/스크린샷 2021-12-02 오전 9.54.49.png>)
 
-배포와 관련해서 제공하는 정보는 Subject, TaskID,  HTMLFiles, ResFiles, Del HTML Files , Del Res Files 입니다.&#x20;
+배포와 관련해서 제공하는 정보는 Subject, TaskID, HTMLFiles, ResFiles, Del HTML Files , Del Res Files 입니다.
 
 ICS를 통해서 배포된 파일은 테스트 서버 -> 검증 서버 -> 운영 서버 등으로 분산되어 재배포가 발생되었을 때, 각 분산된 서버 측으로 이벤트를 통해서 다음 서버 측으로 배포된 파일을 전달하는 과정이 필요한데, 이를 위해서 web Hook 에서 이벤트 발생에 따라 요청을 할 수 있도록 처리가 가능합니다.
 
