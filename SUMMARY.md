@@ -9,7 +9,7 @@
   * [$H.db()](graal-script/graal-script/usdh.db.md)
   * [$H.execUpdate()](graal-script/concept/usdh.execupdate.md)
   * [$H.ldap()](graal-script/concept/usdh.ldap.md)
-  * [$H.upsertUser()- 준비중](graal-script/concept/usdh.upsertuser.md)
+  * [$ICS.upsertUser()](graal-script/concept/usdh.upsertuser.md)
 * [주요예제](graal-script/undefined/README.md)
   * [직접 JSON 생성 및 활용](graal-script/undefined/json.md)
   * [연산처리 활용](graal-script/undefined/undefined/README.md)
