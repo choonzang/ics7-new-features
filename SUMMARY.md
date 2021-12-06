@@ -3,7 +3,7 @@
 ## Graal Script
 
 * [Graal Script 개요](README.md)
-  * [Script Tag](graal-script/graal-script/graal-script.md)
+  * [Script Tag](graal-script/readme/script-tag.md)
   * [Content Hub Script](graal-script/concept/content-hub-script.md)
   * [$H. http()](graal-script/readme/h.http.md)
   * [$H.db()](graal-script/readme/h.db.md)
