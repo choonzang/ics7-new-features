@@ -63,8 +63,8 @@
 
 ## Web Hook
 
-* [Web Hook 개요](web-hook/web-hook.md)
-* [Web Hook 구분](web-hook/web-hook-1/README.md)
-  * [Deploy Web Hook](web-hook/web-hook-1/deploy-web-hook.md)
-  * [Content Update Web Hook](web-hook/web-hook-1/content-update-web-hook.md)
-  * [Content Delete Web Hook](web-hook/web-hook-1/content-delete-web-hook.md)
+* [Web Hook 개요](web-hook/concept.md)
+* [Web Hook 구분](web-hook/type/README.md)
+  * [Deploy Web Hook](web-hook/type/deploy.md)
+  * [Content Update Web Hook](web-hook/type/content-update.md)
+  * [Content Delete Web Hook](web-hook/type/content-delete.md)
