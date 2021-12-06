@@ -4,7 +4,7 @@
 
 운영매니저 > Action Component 메뉴에서 Multiple Value Action Component탭을 선택합니다. 그리고 "등록" 버튼을 누르면 아래의 창을 볼 수 있습니다.
 
-Basic Type 은 4개의 탭으로 구성되어있습니다.
+Multiple Value Type 은 4개의 탭으로 구성되어있습니다.
 
 기본정보, 필드설정, Vue.js, JS 입니다. 가장 먼저 보이는 탭은 "기본정보" 입니다.
 
