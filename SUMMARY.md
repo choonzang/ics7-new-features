@@ -30,9 +30,9 @@
 * [Quick Builder 개요](quick-builder/concept/README.md)
   * [Template 준비하기](quick-builder/concept/template.md)
 * [Quick Builder로 생성하기](quick-builder/quick-builder/README.md)
-  * [최상위 루트 생성](quick-builder/quick-builder/undefined.md)
-  * [하위 디렉토리 생성](quick-builder/quick-builder/undefined-1.md)
-  * [템플릿 생성](quick-builder/build/undefined.md)
+  * [최상위 루트 생성](quick-builder/quick-builder/root.md)
+  * [하위 디렉토리 생성](quick-builder/quick-builder/sub.md)
+  * [템플릿 생성](quick-builder/quick-builder/template.md)
 
 ## Action Component
 
