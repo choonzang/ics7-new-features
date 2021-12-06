@@ -1,10 +1,10 @@
 # Open API로 기사정보 가져오기
 
-Open API를 활용하여, 서비스에 필요한 콘텐츠를 출력할 수 있는 구성의 예제입니다. $H.http()를 이용하여, API에 요청한 값을 가져오는 예제로, ID 와 Key에 대한 인증을 통해서 요청할 수 있는데, javascript 특성상 이러한 정보가 노출될수 밖에 없기 때문에 CORS(Cross-Origin Resource Sharing) 설정을 통해서 API를 요청할 수 있는 서버 정보를 사전에 등록해야 합니다.&#x20;
+Open API를 활용하여, 서비스에 필요한 콘텐츠를 출력할 수 있는 구성의 예제입니다. $H.http()를 이용하여, API에 요청한 값을 가져오는 예제로, ID 와 Key에 대한 인증을 통해서 요청할 수 있는데, javascript 특성상 이러한 정보가 노출될수 밖에 없기 때문에 CORS(Cross-Origin Resource Sharing) 설정을 통해서 API를 요청할 수 있는 서버 정보를 사전에 등록해야 합니다.
 
 관련된 API 설정 및 매뉴얼은 네이버 Developer의 검색 > 뉴스에 대한 안내 페이지를 참고하세요
 
-참고 URL : [https://developers.naver.com/docs/serviceapi/search/news/news.md#%EB%89%B4%EC%8A%A4](https://developers.naver.com/docs/serviceapi/search/news/news.md#%EB%89%B4%EC%8A%A4)&#x20;
+참고 URL : [https://developers.naver.com/docs/serviceapi/search/news/news.md#%EB%89%B4%EC%8A%A4](https://developers.naver.com/docs/serviceapi/search/news/news.md#%EB%89%B4%EC%8A%A4)
 
 ## 사용 예
 
@@ -54,8 +54,6 @@ list.items.forEach(function(node){
 **아이온**컴즈, 美 허브 풋볼 캠프서 스포츠 영상 분석 시스템 선봬Thu, 21 Oct 2021 19:46:00 +0900\
 \
 '한-베 ICT 비즈니스 파트너십', 하노이서 개최...25\~11월5일, 온오프라인으로Thu, 21 Oct 2021 15:56:00 +0900
-
-
 
 ## 샘플 URL
 
